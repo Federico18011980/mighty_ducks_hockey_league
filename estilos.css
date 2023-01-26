@@ -1,0 +1,73 @@
+body{
+    font-family: 'coming soon';
+}
+header{
+    text-align: center;
+}
+#logo{
+    float: left;
+    width: 100px;
+    margin: 20px;
+}
+#titulo{
+    float: left;
+    line-height: 100px;
+    margin: 20px;
+}
+.clearfix{
+    clear: both;
+}
+.menu{
+    height: 50px;
+    margin-left: 170px;
+}
+.menu a{
+    background-color: darkcyan;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: solid 0.5px black ;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
+}
+.menu a:hover{
+    font-size: large;
+    font: bold;
+    background-color: rgb(108, 162, 108);
+    border: solid 0.75px white;
+   
+}
+.img2, .img3{
+    float: left;
+}
+#img1, .img2, .img3{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+aside{
+    float: left;
+    margin-top: 20px;
+}
+article{
+    float: left;
+    margin-left: 30px;
+}
+.articulo{
+    float: left;
+}
+.h3{
+    margin-left: 40px;
+}
+.p{
+    margin-left: 50px;
+}
+#contacto{
+    float: left;
+    margin-left: 50px;
+}
