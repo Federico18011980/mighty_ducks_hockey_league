@@ -1,0 +1,30 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+body{
+    font-family: coming soon;
+}
+
+#contenedor{
+    margin: auto;
+    width: 70%;
+}
+header{
+    background-image: url(../imagenes/design1_image1.jpg);
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+#cabecera{
+    height: 200px;
+    text-align: center;
+}
+#titulo{
+    display: inline-block;
+    line-height: 200px;
+    font-size: 70px;
+    font-weight: bold;
+}
