@@ -9,6 +9,9 @@ header{
     width: 100px;
     margin: 20px;
 }
+main{
+    margin: auto;
+}
 #titulo{
     float: left;
     line-height: 100px;
@@ -70,4 +73,10 @@ article{
 #contacto{
     float: left;
     margin-left: 50px;
+}
+footer{
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
 }
