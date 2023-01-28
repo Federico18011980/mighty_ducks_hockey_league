@@ -69,7 +69,7 @@ h2{
 #logo{
     position: absolute;
     left: 0px;
-    width: 250px;
+    width: 200px;
 }
 #seccion{
     text-align: justify;
@@ -90,5 +90,6 @@ footer{
     width: 80%;
     font-weight: bold;
     font-size: 18px;
+    margin-top: 150px;
 
 }
