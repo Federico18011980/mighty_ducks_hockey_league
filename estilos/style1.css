@@ -75,7 +75,7 @@ header{
     font-size: 25px;
 }
 
-section{
+#section{
     /*float: left;*/
     margin-left: 50px;
     margin-top: 50px;
@@ -83,9 +83,13 @@ section{
 .h3{
     font-size: 20px;
 }
+article{
+    margin-top: 50px;
+}
 article p{
     margin-left: 22px;
     font-size: 18px;
+    margin-top: 20px;
 }
 footer{
     text-align: center;
