@@ -12,7 +12,7 @@ body{
     width: 90%;
 }
 header{
-    height: 350px;
+    height: 300px;
     background-image: url(../imagenes/design1_image1.jpg);
     /*text-align: center;*/
     background-attachment: fixed;
@@ -61,33 +61,41 @@ header{
 #principal{
     display: inline;
 }
+#contenido_central{
+    
+
+}
+
 .menu{
     margin-right: 50px;
     margin-top: 25px;
+    height: 310px;
+    display: inline-block;
     float: left;
     
 }
+
 .menu a{
     display: block;
-    margin-top: 20px;
+    margin-top: 43px;
     margin-left: 20px;
     padding: 20px;
     font-size: 25px;
 }
 
-#section{
-    /*float: left;*/
+
+#seccion{
+   display: inline-block;
     margin-left: 50px;
     margin-top: 50px;
+  
 }
 .h3{
     font-size: 20px;
 }
-article{
-    margin-top: 50px;
-}
-article p{
-    margin-left: 22px;
+
+#seccion p{
+    margin-left: 30px;
     font-size: 18px;
     margin-top: 20px;
 }
