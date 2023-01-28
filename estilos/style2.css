@@ -86,6 +86,13 @@ h2{
     font-size: 16px;
 
 }
+#mision h2{
+    font-size: 18px;
+}
+#mision p{
+    font-size: 16px;
+}
+
 footer{
     width: 80%;
     font-weight: bold;
