@@ -61,16 +61,17 @@ header{
 #principal{
     display: inline;
 }
+#contenido_central_contact{
+    height: 400px;
+}
 #contenido_central{
-    
-
+    height: max-content;
 }
 
 .menu{
     margin-right: 50px;
     margin-top: 25px;
-    height: 310px;
-    display: inline-block;
+    height: max-content;
     float: left;
     
 }
