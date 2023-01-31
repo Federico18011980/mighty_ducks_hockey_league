@@ -44,12 +44,12 @@ header{
 }
 #upcoming{
     flex-grow: 3;
-    text-align: center;
+    text-align:justify;
     line-height: 50px;
 }
 #upcoming h2{
     color: #f7ef54;
-    
+    margin-left: 10px;
 }
 .menu{
     display: flex;
@@ -70,8 +70,8 @@ header{
     
 }
 .menu a:hover{
-    /*padding: 4px;
-    */font: bold;
+    transition: 0.3s;
+    font: bold;
     background-color: rgb(245, 245, 220);
     border: solid 0.75px black;
     color: black;
@@ -83,6 +83,10 @@ header{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 #img1, #img2, #img3{
     width: 200px;
@@ -97,6 +101,9 @@ header{
 #art1, #art2, #art3{
     flex-grow: 1;
     margin: auto ;
+}
+h3{
+    text-decoration: underline;
 }
 
 footer{
