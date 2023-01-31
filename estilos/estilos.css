@@ -4,110 +4,113 @@
     box-sizing: border-box;
 }
 html{
-    background-color: rgb(82, 81, 80);
+    background-color: black;
 }
 body{
     width: 90%;
     margin: auto;
     font-family: 'coming soon';
-    text-align: center;
-    background-color: #f8ed9bfc;
+    background-color: #f7ef54;
 }
 header{
-    text-align:center;
-    padding-left: 150px;
-    width: 70%;
-    height: 100px;
-}
-#logo{
-    position: absolute;
-    left: 5px;
-    top:0px;
-    width: 150px;
-    
-
-}
-main{
-    position: relative;
-    width: 70%;
-    margin: auto;
-    text-align: center;
     background-image: url(../imagenes/design1_image1.jpg);
     background-position: center center;
-    
+    display: flex;
+    margin: 3px;
+    width: calc(100% - 8px);
+    border: 1px solid black;
+}
+#logo{
+    width: 200px;
+    flex-grow: 1;
+
+}
+#Cabecera{
+    flex-grow: 3;
+    text-align: center;
 }
 #titulo{
-    font-size: 45px;
-    font-weight: bolds;
-    line-height: 70px;
-    width: 100%;
-    text-shadow:3px 3px hsl(58, 90%, 50%) ;
-    
+    font-size: 50px;
+    line-height: 200px;
+    text-shadow: 5px 5px #f7ef54 ;
+}
+#secundario{
+    align-content: center;
+    height: 50px;
+    margin: 3px;
+    display: flex;
+    background-color: black;
+    border: 1px solid white;
 }
 #upcoming{
-    border: solid 1px yellow;
-    color: white;
-    background-color: black;
-    width: 100%;
+    flex-grow: 3;
     text-align: center;
-    margin-top: 40px;
-    padding: 5px;
+    line-height: 50px;
 }
-.clearfix{
-    clear: both;
+#upcoming h2{
+    color: #f7ef54;
+    
 }
 .menu{
-    position: absolute;
-    height: 50px;
-    right:10px;
-    top: 20px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
 }
 .menu a{
-    background-color: darkcyan;
+    background-color: #f7ef54;
     text-decoration: none;
+    text-shadow: 2px 2px black ;
     color: white;
-    margin: 5px;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
-    border: solid 0.5px black ;
-    transition: 100ms;
-    -webkit-transition: 100ms;
-    -moz-transition: 100ms;
-    -ms-transition: 100ms;
-    -o-transition: 100ms;
+    border: solid 1px white ;
+    
 }
 .menu a:hover{
-    font-size: large;
-    font: bold;
-    background-color: rgb(108, 162, 108);
-    border: solid 0.75px white;
-   
+    /*padding: 4px;
+    */font: bold;
+    background-color: rgb(245, 245, 220);
+    border: solid 0.75px black;
+    color: black;
+    text-shadow: 2px 2px #f7ef54;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#img1, #img2, #img3{
+    width: 200px;
+}
+#seccion{
+    display: flex;
+    width: calc(100%-6px);
+    margin: 3px;
+    justify-content:stretch;
+    gap: 200px;
+}
+#art1, #art2, #art3{
+    flex-grow: 1;
+    margin: auto ;
 }
 
-
-
-.h3{
-    margin-left: 40px;
-}
-.p{
-    margin-left: 50px;
-}
-#contacto{
-    float: left;
-    margin-left: 50px;
-}
 footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: darkgrey;
+    border: 2px solid white;
     font-weight: bold;
     height: 50px;
     width: 100%;
     text-align: center;
     line-height: 50px;
 }
-#seccion{
-    color: hsl(58, 90%, 50%);
-    text-shadow: 3px 3px black;
-    font-size: large;
-    font-weight: bold;
-    height: 500px;
-    
+#email a{
+    color: black;
 }
