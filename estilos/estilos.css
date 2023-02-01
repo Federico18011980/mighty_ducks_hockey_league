@@ -7,10 +7,10 @@ html{
     background-color: black;
 }
 body{
-    width: 90%;
+    width: 100%;
     margin: auto;
     font-family: 'coming soon';
-    background-color: #f7ef54;
+    background-color: hsl(57, 99%, 74%);
 }
 header{
     background-image: url(../imagenes/design1_image1.jpg);
@@ -32,7 +32,7 @@ header{
 #titulo{
     font-size: 50px;
     line-height: 200px;
-    text-shadow: 5px 5px #f7ef54 ;
+    text-shadow: 5px 5px 3px #f7ef54 ;
 }
 #secundario{
     align-content: center;
@@ -50,6 +50,7 @@ header{
 #upcoming h2{
     color: #f7ef54;
     margin-left: 10px;
+    text-shadow: 1px 1px 2px white;
 }
 .menu{
     display: flex;
@@ -91,37 +92,72 @@ header{
 }
 #img1, #img2, #img3{
     width: 200px;
+    border: 2px solid orange;
+    box-shadow: 5px 5px 5px gray;
 }
 #seccion{
    
     display: flex;
     width: calc(100%-6px);
     margin: 3px;
-    justify-content:stretch;
-    gap: 200px;
+    justify-content:space-between;
+    gap: 70px;
 }
 #art1, #art2, #art3{
     flex-grow: 1;
     margin: auto ;
 }
-
-h3{
+#mision, #vision, #about{
+    width: 25%;
+    border: 2px solid black;
+}
+.h2{
     text-decoration: underline;
+    text-shadow: 1px 1px 1px gray;
+}
+.imgabout{
+    width: 150px;
+    height: 120px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    border: 1px solid orange;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.h3{
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px grey;
+}
+#contacto{
+    display: flex;
+    width: calc(100% - 6px);
+    margin: 3px;
+    justify-content: flex-start;
+    gap: 50px;
 }
 .contacto{
     height: 100px;
     line-height: 50px;
 }
+.imgcontact{
+    width: 300px;
+    border: 1px solid orange;
+    box-shadow: 3px 3px 3px grey;
+
+}
 
 footer{
     display: flex;
     justify-content: center;
+    margin: 3px;
     gap: 50px;
     background-color: darkgrey;
     border: 2px solid white;
     font-weight: bold;
     height: 50px;
-    width: 100%;
+    width: calc(100% - 6px);
     text-align: center;
     line-height: 50px;
 }
