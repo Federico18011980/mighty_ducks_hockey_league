@@ -197,7 +197,52 @@ li{
 
 /*Aquí comienzan los estilos para la página 
 "GAME INFO"*/
+#contenedor-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#imgt2, #imgt3{
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px gray;
+    width: 350px;
+    height:350px ;
+}
 
+
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background: linear-gradient(45deg,yellow,orange,rgb(248, 168, 125),black);
+    position: relative;
+    animation: cambiar 10s ease infinite;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#tabla{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    width: calc(100% - 6px);
+    text-align: center;
+}
+thead{
+    background-color: #fdddb8;
+}
+th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:  20px;
+    padding-right: 20px;
+}
 
 footer{
     display: flex;
