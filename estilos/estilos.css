@@ -70,11 +70,11 @@ main{
 .menu a{
     background-color: #f7ef54;
     text-decoration: none;
-    text-shadow: 2px 2px black ;
-    color: white;
-    padding: 2px;
+    text-shadow: 2px 2px 2px black ;
+    color:white;
+    padding: 3px;
     text-align: center;
-    border: solid 1px white ;
+    border: 1px solid white ;
     border-radius: 10px;
     
 }
@@ -82,9 +82,9 @@ main{
     transition: 0.3s;
     font: bold;
     background-color: rgb(245, 245, 220);
-    border: solid 0.75px black;
+    border: solid 0.75px tomato;
     color: black;
-    text-shadow: 2px 2px #f7ef54;
+    text-shadow: 2px 2px 2px #f7ef54;
     padding: 6px;
     font-weight: bold;
     border-radius: 10px;
@@ -154,6 +154,50 @@ main{
     box-shadow: 3px 3px 3px grey;
 
 }
+section{
+    border: 2px solid orange;
+    margin: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Aquí comienzan los estilos 
+para la página "RULES"*/
+
+#encabezado-reglas{
+    text-align: center;
+}
+#presentacion-reglas{
+    margin:3px;
+    width: calc(100% - 6px);
+}
+#presentacion-reglas h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#ihf,#all-play{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul, ol{
+    margin: 0 20px;
+}
+#ul-padre{
+    list-style:none ;
+}
+li{
+    padding: 3px;
+    margin-bottom: 20px;
+}
+.li-anidados{
+    margin-bottom: auto;
+}
+
+/*Aquí comienzan los estilos para la página 
+"GAME INFO"*/
+
 
 footer{
     display: flex;
