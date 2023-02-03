@@ -19,6 +19,7 @@ header{
     margin: 3px;
     width: calc(100% - 8px);
     border: 1px solid black;
+    height: 300px;
 }
 #logo{
     width: 200px;
@@ -31,24 +32,21 @@ header{
 }
 #titulo{
     font-size: 50px;
-    line-height: 200px;
-    text-shadow: 5px 5px 3px #f7ef54 ;
+    line-height: 300px;
+    text-shadow: 5px 5px  #f2f549 ;
 }
 #secundario{
     align-content: center;
     height: 50px;
     margin: 3px;
     display: flex;
-    background-color: black;
+    background-color: #5b8982;
     border: 1px solid white;
 }
 main{
     width: 100%;
 }
-#contenedor{
-    margin: 3px;
-    width: calc(100% - 6px);
-}
+
 #upcoming{
     flex-grow: 3;
     text-align:justify;
@@ -57,7 +55,7 @@ main{
 #upcoming h2{
     color: #f7ef54;
     margin-left: 10px;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 2px 2px 2px black;
 }
 .menu{
     display: flex;
@@ -72,11 +70,15 @@ main{
     text-decoration: none;
     text-shadow: 2px 2px 2px black ;
     color:white;
-    padding: 3px;
+    padding: 4px;
     text-align: center;
     border: 1px solid white ;
     border-radius: 10px;
-    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
 }
 .menu a:hover{
     transition: 0.3s;
@@ -105,15 +107,18 @@ main{
 #seccion{
    
     display: flex;
-    width: calc(100%-6px);
+    width: calc(100% - 6px);
     margin: 3px;
     justify-content:space-between;
     gap: 70px;
+    border: 1px solid orange;
+    padding: 3px;
 }
 #art1, #art2, #art3{
     flex-grow: 1;
     margin: auto ;
 }
+
 #mision, #vision, #about{
     width: 25%;
     border: 2px solid black;
@@ -155,7 +160,7 @@ main{
 
 }
 section{
-    border: 2px solid orange;
+    border: 1px solid orange;
     margin: 3px;
     padding-left: 20px;
     padding-right: 20px;
@@ -201,6 +206,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 #imgt2, #imgt3{
     border: 2px solid black;
@@ -214,12 +220,13 @@ table{
     border-collapse: collapse;
     border: 2px solid black;
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-top: 20px;
-    background: linear-gradient(45deg,yellow,orange,rgb(248, 168, 125),black);
+    background: linear-gradient(45deg,rgb(242, 242, 102),orange);
     position: relative;
     animation: cambiar 10s ease infinite;
     box-shadow: 5px 5px 5px gray;
+    -webkit-animation: cambiar 10s ease infinite;
 }
 
 #tabla{
@@ -233,7 +240,9 @@ table{
     text-align: center;
 }
 thead{
-    background-color: #fdddb8;
+    background-color: #5b8982;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 2px white;
 }
 th,td{
     border-collapse: collapse;
@@ -243,6 +252,46 @@ th,td{
     padding-left:  20px;
     padding-right: 20px;
 }
+#cont-dl{
+    width: calc(100% - 6px);
+    border-top: 3px solid orange;
+}
+dl{
+    margin: 3px;
+    width: calc(100% - 6px);
+   
+}
+dt{
+    display:inline;
+    font-weight: bold;
+    padding-top: 5px;
+  
+}
+dd{
+    display: inline-block;
+    padding-top: 5px;
+}
+#questions{
+    margin-top: 20px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#michael, #phone{
+    padding: 3px;
+}
+#phone-mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo-pie{
+    width: 100px;
+}
+
 
 footer{
     display: flex;
@@ -250,7 +299,7 @@ footer{
     margin: 3px;
     width: calc(100% - 6px);
     gap: 50px;
-    background-color: darkgrey;
+    background-color: #5b8982;
     border: 2px solid white;
     font-weight: bold;
     height: 50px;
