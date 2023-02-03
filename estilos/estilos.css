@@ -214,7 +214,9 @@ li{
     width: 350px;
     height:350px ;
 }
-
+h5{
+    font-size: 1rem;
+}
 
 table{
     border-collapse: collapse;
@@ -256,20 +258,11 @@ th,td{
     width: calc(100% - 6px);
     border-top: 3px solid orange;
 }
-dl{
-    margin: 3px;
-    width: calc(100% - 6px);
-   
-}
-dt{
-    display:inline;
-    font-weight: bold;
-    padding-top: 5px;
-  
-}
-dd{
-    display: inline-block;
-    padding-top: 5px;
+#ul-info{
+    list-style:none ;
+    padding-top: 20px;
+    padding-left: 0;
+    margin-left: 0;
 }
 #questions{
     margin-top: 20px;
@@ -285,8 +278,9 @@ dd{
 #phone-mail{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:flex-end;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 #logo-pie{
     width: 100px;
@@ -306,6 +300,6 @@ footer{
     text-align: center;
     line-height: 50px;
 }
-#email a{
+#email-dw a{
     color: black;
 }
