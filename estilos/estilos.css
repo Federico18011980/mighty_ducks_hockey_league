@@ -285,7 +285,61 @@ th,td{
 #logo-pie{
     width: 100px;
 }
+/*estilos para el formulario
+#address{
+    
+}*/
+#main-form{
+    width: calc(100% - 6px);
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+}
+#titulo-form{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+#contenedor-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: calc(100% - 200px);
+}
+#nom-ape{
+    display: flex;
+    gap: 40px;
+    flex-grow: 50%;
+    justify-content: space-between;
+    margin: 3px;
+    width: calc(100% - 6px) ;
+    border: none;
+}
+#address-form{
+    margin: 3px;
+    width: calc(100% - 6px) ;
+    border: none;
+}
 
+#nombre, #apellido{
+    align-self:center;
+    width: 400px;
+
+}
+label{
+    padding: 5px;
+}
+input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+#address-input{
+    width: 1010px;
+}
 
 footer{
     display: flex;
