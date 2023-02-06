@@ -322,6 +322,18 @@ th,td{
     border: none;
     gap: 10px;
 }
+#p-grade{
+    display: inline-block;
+    height: 0.8rem;
+}
+#grade{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3px;
+    width: calc(100% - 6px);
+    border: none;
+    gap: 3%;
+}
 
 .nombreape, .city-zipcode, #fecha-nac{
     display: flex;
