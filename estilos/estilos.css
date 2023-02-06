@@ -329,7 +329,7 @@ th,td{
 #grade{
     display: flex;
     justify-content: flex-start;
-    margin: 3px;
+    margin: 20px 3px 5px 3px;
     width: calc(100% - 6px);
     border: none;
     gap: 3%;
@@ -408,7 +408,7 @@ input[type = "radio"]:checked{
     padding-left: 5px;
     padding-right: 5px;
 }
-#cercania{
+#cercania, #position, #uniforme{
     display: flex;
     justify-content: flex-start;
     border: none;
@@ -416,17 +416,19 @@ input[type = "radio"]:checked{
     width: calc(100% - 6px);
     gap:15%;
 }
-.escuelas{
+.escuelas, .posicion, .u-zise{
     display: flex;
     flex-direction: column;
 }
-#tescuelas{
+#tescuelas, #tposicion{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     gap: 10px;
     margin: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: calc(100% - 6px);
 }
 #tescuelas h2{
@@ -445,6 +447,21 @@ input[type = "radio"]:checked{
     margin: 3px ;
     width: calc(100% - 6px);
 }
+#permiso, #p-permiso{
+    margin: 3px;
+    width: calc(100% - 6px);
+}
+#permiso>p{
+    margin: 3px;
+}
+#firma{
+    display: flex;
+    margin: 3px;
+    border: none;
+    justify-content: left;
+    flex-direction: column;
+}
+
 #enviar{
     margin: 3px;
     background-color:transparent;
