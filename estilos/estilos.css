@@ -334,9 +334,7 @@ th,td{
     width: calc(50% - 6px);
     margin: 3px
 }
-#pnombre,#papellido #pcity, #pzip, #pfecha{
-    flex-grow:0;
-}
+
 #pgenero{
     width: 30%;
 }
@@ -372,9 +370,7 @@ input{
     width: calc(100% - 6px);
     justify-content: start;
 }
-#paddress{
-    flex-grow: 0;
-}
+
 #address-input{
     flex-grow: 1;
 }
