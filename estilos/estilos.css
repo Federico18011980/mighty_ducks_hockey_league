@@ -306,27 +306,48 @@ th,td{
     margin-left: 100px;
     margin-right: 100px;
     width: calc(100% - 200px);
+    background-color: hsl(57, 77%, 81%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 2px solid orange;
 }
-#nom-ape{
+#nom-ape, #city-zip,#date-genero{
     display: flex;
-    gap: 40px;
-    flex-grow: 50%;
+    justify-content:space-between;
+    margin: 3px;
+    width: calc(100% - 16px) ;
+    border: none;
+    gap: 10px;
+}
+
+.nombreape, .city-zipcode, #fecha-nac{
+    display: flex;
     justify-content: space-between;
-    margin: 3px;
-    width: calc(100% - 6px) ;
-    border: none;
+    width: calc(50% - 6px);
+    margin: 3px
 }
-#address-form{
-    margin: 3px;
-    width: calc(100% - 6px) ;
-    border: none;
+#genero{
+    display: flex;
+    width: calc(50% - 6px);
+    margin: 3px
+}
+#pnombre,#papellido #pcity, #pzip, #pfecha{
+    flex-grow:0;
+}
+#pgenero{
+    width: 30%;
+}
+ #lfemale, #male{
+    flex-grow: 1;
 }
 
-#nombre, #apellido{
-    align-self:center;
-    width: 400px;
-
+#nombre, #apellido, #city, #zip, #fecha{
+    flex-grow: 3;
 }
+
 label{
     padding: 5px;
 }
@@ -337,8 +358,26 @@ input{
     border-bottom: 1px solid black;
     padding: 5px;
 }
+#address-form{
+    margin: 3px;
+    width: calc(100% - 6px) ;
+    border: none;
+}
+.address{
+    display: flex;
+    width: calc(100% - 6px);
+    justify-content: start;
+}
+#paddress{
+    flex-grow: 0;
+}
 #address-input{
-    width: 1010px;
+    flex-grow: 1;
+}
+
+#lmale, #lfemale, #female, #male{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 footer{

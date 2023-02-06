@@ -43,11 +43,11 @@
                 <h2 id="titulo-form">Registration Form</h2>
                 <fieldset id="nom-ape">
                     
-                    <label class="nomreape">Player's First Name:
+                    <label class="nombreape"><p id="pnombre">Player's First Name:</p> 
                         <input type="text" name="nombre" id="nombre" >
                     </label>
 
-                    <label class="nombreape">Last Name:
+                    <label class="nombreape"><p id="papellido"></p> Last Name:
                         <input type="text" name="apellido" id="apellido" >
                     </label>
 
@@ -55,11 +55,46 @@
 
                 <fieldset id="address-form">
                     
-                    <label class="address">Street Address:
+                    <label class="address"> <p id="paddress">Street Address:</p> 
                         <input type="text" name="address" id="address-input">
                     </label>
 
                 </fieldset>
+
+                <fieldset id="city-zip">
+                    
+                    <label class="city-zipcode"><p id="pcity">City</p> :
+                        <input type="text" name="city" id="city" >
+                    </label>
+
+                    <label class="city-zipcode"><p id="pzip">Zip code:</p>
+                        <input type="text" name="zip" id="zip" >
+                    </label>
+
+                </fieldset>
+
+                <fieldset id="date-genero">
+
+                    <label for="" id="fecha-nac"><p id="pfecha">Birth Date:</p>
+                        <input type="date" name="fecha" id="fecha">
+                    </label>
+
+                    <div id="genero">
+                        
+                        <p id="pgenero">Gender:</p>
+                        
+                        <label for="" id="l-female">Female
+                            <input type="radio" name="genero" id="female">
+                        </label>
+
+                        <label for="" id="l-male">Male
+                            <input type="radio" name="genero" id="Male">
+                        </label>
+                        
+                    </div>
+                </fieldset>
+
+                
 
             </form>
         </div>
@@ -67,7 +102,7 @@
        
     </main>
     <footer>
-        <div id="nombre">
+        <div id="nombre-dw">
            <p>Federico Rodriguez Dev-Web &copy;</p> 
         </div>
         <div id="email-dw">
