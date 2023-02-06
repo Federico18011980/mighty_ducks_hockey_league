@@ -357,6 +357,10 @@ input{
     outline: none;
     border-bottom: 1px solid black;
     padding: 5px;
+    font-family: 'coming soon';
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 5px;
 }
 #address-form{
     margin: 3px;
@@ -378,6 +382,35 @@ input{
 #lmale, #lfemale, #female, #male{
     padding-left: 5px;
     padding-right: 5px;
+}
+#submit{
+    display: flex;
+    justify-content: right;
+    border: none;
+    margin: 3px ;
+    width: calc(100% - 6px);
+}
+#enviar{
+    margin: 3px;
+    background-color:transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid orange ;
+    color: black;
+    text-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+    -webkit-transition: box-shadow 0.2s ease-in-out;
+    -moz-transition: box-shadow 0.2s ease-in-out;
+    -ms-transition: box-shadow 0.2s ease-in-out;
+    -o-transition: box-shadow 0.2s ease-in-out;
+}
+#enviar:hover{
+    box-shadow: 0 0 18px 18px #5b8982 inset;
+    text-shadow: 2px 2px 2px white;
 }
 
 footer{
