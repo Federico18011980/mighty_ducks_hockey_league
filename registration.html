@@ -99,38 +99,82 @@
                     <p id="p-grade">Grade:</p>
                     
                     <div id="pre">
-                        <input type="checkbox" name="pre-school" id="pre-school" value="Pre-School" >
+                        <input type="radio" name="grade" id="pre-school" value="Pre-School" >
                         <label for="pre-school">Pre-School</label>
 
                     </div>
                     
                     <div id="uno">
-                        <input type="checkbox" name="primero" id="primero" value="primero" >
+                        <input type="radio" name="grade" id="primero" value="primero" >
                         <label for="primero">1st</label>
                     </div>
                     
                     <div id="dos">
-                        <input type="checkbox" name="segundo" id="segundo" value="segundo" >
+                        <input type="radio" name="grade" id="segundo" value="segundo" >
                         <label for="segundo">2nd</label>
                     </div>
                     
                     <div id="tres">
-                        <input type="checkbox" name="tercero" id="tercero" value="tercero" >
+                        <input type="radio" name="grade" id="tercero" value="tercero" >
                         <label for="tercero">3rd</label>
                     </div>
                     
                     <div id="cuatro">
-                        <input type="checkbox" name="cuarto" id="cuarto" value="cuarto" >
+                        <input type="radio" name="grade" id="cuarto" value="cuarto" >
                         <label for="cuarto">4th</label>
                     </div>
                     
                     <div id="cinco">
-                        <input type="checkbox" name="quinto" id="quinto" value="quinto" >
+                        <input type="radio" name="grade" id="quinto" value="quinto" >
                         <label for="quinto">5th</label>
                     </div>
                     
 
                 </fieldset>
+
+                <div id="tescuelas">
+                    <h2>Which elementary school do you live near?</h2>
+                    <h3>Closest School:</h3>
+                </div>
+
+                <fieldset id="cercania">
+                        
+                    <div class="escuelas">
+
+                        <label for="aj">
+                            <input type="radio" name="school" id="aj" value="aj-katzenmaeir"> AJ Katzenmaeir
+                        </label>
+
+                        <label for="greenbay">
+                            <input type="radio" name="school" id="greenbay" value="greenbay"> Greenbay
+                        </label>
+
+                        <label for="howard">
+                            <input type="radio" name="school" id="howard" value="howard "> Howard A Yeager
+                        </label>
+
+                    </div>
+                    
+                    <div class="escuelas">
+
+                        <label for="marjorie">
+                            <input type="radio" name="school" id="marjorie" value="marjorie"> Marjorie P Hart
+                        </label>
+
+                        <label for="north">
+                            <input type="radio" name="school" id="north" value="north">
+                            North Elementary
+                        </label>
+
+                        <label for="south">
+                            <input type="radio" name="school" id="south" value="south">
+                            South Elementary
+                        </label>
+
+                    </div>
+
+                </fieldset>
+                
 
                 <fieldset id="submit">
                     <input type="submit" name="Enviar datos" id="enviar" value="Enviar Datos">

@@ -372,6 +372,23 @@ input{
     font-size: 1rem;
     margin-left: 5px;
 }
+input[type = "radio"]{
+    appearance: none;
+    width: 1px;
+    border: 1px solid black;
+    background-color: white;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+input[type = "radio"]:checked{
+    background-color: #5b8982;
+    
+}
+
 #address-form{
     margin: 3px;
     width: calc(100% - 6px) ;
@@ -390,6 +407,36 @@ input{
 #lmale, #lfemale, #female, #male{
     padding-left: 5px;
     padding-right: 5px;
+}
+#cercania{
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    margin: 3px;
+    width: calc(100% - 6px);
+    gap:15%;
+}
+.escuelas{
+    display: flex;
+    flex-direction: column;
+}
+#tescuelas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 3px;
+    width: calc(100% - 6px);
+}
+#tescuelas h2{
+    padding: 10px;
+    margin-top: 5px ;
+    margin-bottom: 3px;
+}
+#tescuelas h3{
+    padding: 5px;
+    margin: 3px;
 }
 #submit{
     display: flex;
