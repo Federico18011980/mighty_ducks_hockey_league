@@ -320,6 +320,7 @@ th,td{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    grid-row: 1;
 }
 /*estilos para el formulario
 #address{
@@ -666,4 +667,15 @@ footer{
         margin-top: 10px;
     }
    
+}
+
+@media only screen and (min-width:1024px) and (max-width:1300px) {
+    #contenedor-info{
+        display: flex;
+        flex-direction: column;
+    }
+    #imgt2, #imgt3{
+        width: 350px;
+        height: 350px;
+       }
 }
