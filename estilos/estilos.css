@@ -285,6 +285,24 @@ th,td{
 #logo-pie{
     width: 100px;
 }
+#mapas{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 3px;
+    width: calc(100% - 6px);
+    gap: 20px;
+    
+}
+.mapita{
+    text-align: center;
+    background-color:transparent;
+    border: 2px solid orange;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
 /*estilos para el formulario
 #address{
     
