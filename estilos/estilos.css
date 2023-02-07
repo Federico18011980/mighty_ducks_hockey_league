@@ -537,9 +537,10 @@ footer{
 #email-dw a{
     color: black;
 }
-/*estilos media query para Home*/
 
-    
+
+/*inicio de los estilos media
+ query para Todo el sitio*/    
 
 @media only screen and (min-width:320px) and (max-width:888px)  {
     #seccion{
@@ -666,4 +667,3 @@ footer{
     }
    
 }
-/*final de la media para HOME*/
