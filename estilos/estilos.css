@@ -79,6 +79,7 @@ main{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     box-shadow: 2px 2px 2px black;
+    
 }
 .menu a:hover{
     transition: 0.3s;
@@ -115,51 +116,7 @@ main{
     padding: 3px;
     height: 230px;
 }
-/*estilos media query para Home*/
 
-@media only screen and (min-width:320px) and (max-width:888px)  {
-    #seccion{
-        flex-direction: column;
-        height: auto;
-        padding-top: 20px;
-
-    }
-    #secundario{
-        flex-wrap: nowrap;
-        flex-direction: column;
-        height: auto;
-    }
-    .menu{
-        flex-direction: column;
-        padding-bottom: 10px;
-    }
-    .menu a{
-        padding: 0px;
-    }
-    #logo{
-        width: 100px;
-    }
-    #titulo{
-        font-size:35px;
-        line-height: 100%;
-    }
-    #upcoming{
-        text-align: center;
-    }
-    #upcoming h2{
-        margin-bottom: 10px;
-        font-size: 1.2em;
-    }
-    footer{
-        gap: 12px;
-        flex-direction: column;
-        height:max-content;
-        line-height: 20px;
-        text-align: center;
-    }
-
-}
-/*final de la media para HOME*/
 
 #seccion-about{
     display: flex;
@@ -298,6 +255,9 @@ table{
     width: calc(100% - 6px);
     text-align: center;
 }
+.tabla{
+    display: flex;
+}
 thead{
     background-color: #5b8982;
     font-size: 1.3rem;
@@ -345,6 +305,7 @@ th,td{
 #mapas{
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
     margin: 3px;
     width: calc(100% - 6px);
     gap: 20px;
@@ -576,3 +537,133 @@ footer{
 #email-dw a{
     color: black;
 }
+/*estilos media query para Home*/
+
+    
+
+@media only screen and (min-width:320px) and (max-width:888px)  {
+    #seccion{
+        flex-direction: column;
+        height: auto;
+        padding-top: 20px;
+
+    }
+    header div{
+        text-align: center;
+       
+    }
+    #secundario{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: auto;
+    }
+    .menu{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .menu a{
+        padding: 0px;
+        width: 150px;
+    }
+    #logo{
+        width: 100px;
+    }
+    #titulo{
+        font-size:35px;
+        line-height: 100%;
+    }
+    #upcoming{
+        text-align: center;
+    }
+    #upcoming h2{
+        margin-bottom: 10px;
+        
+        font-size: 1.2em;
+    }
+    #seccion-about{
+       display: flex;
+       flex-direction: column;
+       gap:20px;
+    }
+    #contacto{
+        flex-direction: column;
+        gap:1px;
+    }
+ 
+    #nombre-dw,#email-dw{
+        padding: 3px;
+        line-height: 20px;
+    }
+
+    footer{
+        gap: 0px;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        line-height: 0px;
+    }
+
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+    #contenedor-info{
+        display: flex;
+        flex-direction: column;
+    }
+   .tabla{
+    display: flex;
+   }
+   .mitabla tr th, .mitabl tr td{
+    padding: 1px;
+    margin: 1px;
+    line-height: 100%;
+   }
+   section{
+   width:calc(100% - 6px);
+   }
+   #mapas{
+    justify-content: center;
+   }
+   th{
+    font-size: 0.8em;
+   }
+   td{
+    padding-left: 1px;
+    padding-right: 1px;
+   }
+   #imgt2, #imgt3{
+    width: 295px;
+    height: 295px;
+   }
+   #phone-mail{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   #contenedor-form{
+    width: calc(100% - 6px);
+    margin: 3px;
+   }
+   form{
+    width: calc(100% - 6px);
+    margin: 3px;
+   }
+   #nom-ape, #city-zip, #date-genero{
+    display: block;
+   }
+   #grade{
+    gap:1%;
+   }
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    #contenedor-info{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    #mapas{
+        justify-content: center;
+        margin-top: 10px;
+    }
+   
+}
+/*final de la media para HOME*/
